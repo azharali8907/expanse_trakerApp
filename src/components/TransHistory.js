@@ -3,7 +3,7 @@ import {GlobalContaxt} from '../contax/GlobalState';
 // import Transaction history
 import { Transactions } from './Transactions'
 
-export const TransactionHistory = () => {
+const TransactionHistory = () => {
         const {transaction} = useContext(GlobalContaxt);
     
          return(
@@ -20,4 +20,4 @@ export const TransactionHistory = () => {
          );
 }
 
-
+export default TransactionHistory;
