@@ -1,5 +1,4 @@
 import React from 'react';
-import TransactionHistory from './TransHistory';
 
 export const Transactions = ({ transaction }) => {
     return(
