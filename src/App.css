@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.body{
+  max-width: 400px;
+  height: auto;
+  background-color: whitesmoke;
+  margin: auto;
+
+
+}
+.header{
+  text-align: center;
+}
+.container{
+  text-align: center;
+}
+.summry{
+  width: 260px;
+    height: 60px;
+    background-color: #fff;
+    /* text-align: center; */
+    margin: auto;
+    border: 1px solid fff;
+    border: 1px solid
+}
+.income{
+  width: 130px;
+  height: 60px;
+  background-color:chartreuse;
+  float: left;
+}
+.expance{
+  width: 130px;
+  height: 60px;
+  background-color:red;
+  float: left;
+}
+.history{
+  margin-top: 30px;
+}
+.history ul{
+  list-style: none;
+}
+.list{
+  width: 265px;
+    height: auto;
+    margin: auto;
+}
+.postive{
+  border-bottom: 1px solid;
+    border-right: 3px solid #008000;
+    max-width: 265px;
+    height: 26px;
+    background-color: #fff;
+    margin-bottom: 2px;
+    text-align: left;
+    font-size: 14px;
+    padding: 2px 5px;
+}
+.nagtive{
+  border-bottom: 1px solid;
+  border-right: 3px solid #FF0000;
+  max-width: 265px;
+  height: 26px;
+  background-color: #fff;
+  margin-bottom: 2px;
+  text-align: left;
+    font-size: 14px;
+    padding: 2px 5px;
+}
+.postive span{
+  float: right;
+    /* text-align: right; */
+    font-size: 14px;
+    margin-right: 5px;
+}
+.nagtive span{
+  float: right;
+    /* text-align: right; */
+    font-size: 14px;
+    margin-right: 5px;
+}
+.delbtn{
+  float: left;
+    margin-left: -29px;
+    width: 19px;
+    height: 20px;
+    margin-top: 3px;
+    background-color: red;
+    color: white;
+    border: 1px solid;
+}
+.form-div input{
+  width: 265px;
+    margin-left: -4px;
+    height: 20px;
+}
+.form-div label{
+  font-size: 18px;
+  /* text-align: left; */
+  margin-left: -188px;
+}
+.form-div2 input{
+  width: 265px;
+    margin-left: -4px;
+    height: 20px;
+}
+.form-div2 label{
+  font-size: 18px;
+  /* text-align: left; */
+  margin-left: -116px;
+}
+.btn{
+  margin-top: 20px;
+    margin-bottom: 10px;
+    width: 265px;
+    height: 25px;
+    background-color: #98c3e2;
+    color: white;
+    border: 1px solid;
+    cursor: pointer;
+}
