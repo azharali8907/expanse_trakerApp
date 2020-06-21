@@ -4,7 +4,7 @@ import {GlobalContaxt} from '../contax/GlobalState';
 import { Transactions } from './Transactions'
 
 const TransactionHistory = () => {
-        const {transaction} = useContext(GlobalContaxt);
+        const { transaction } = useContext(GlobalContaxt);
     
          return(
         <div className="history">
