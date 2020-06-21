@@ -33,6 +33,7 @@ const AddTransaction = () => {
                         </div>
                     <div className="form-div2">
                     <label htmlFor="amount">Transaction Amount</label><br/>
+                    
                         <input type="number" 
                                 id="amount" 
                                 placeholder="Add Transaction"
@@ -44,7 +45,7 @@ const AddTransaction = () => {
                     </div>
                     <button className="btn">Add Transaction</button>
                 </form>
-                <p>Developed by M.Azhar ALi from PIAIC FSD</p>
+            <p>Developed by M.Azhar ALi from PIAIC FSD</p>
         </div>
 
 
