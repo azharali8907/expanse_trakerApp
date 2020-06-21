@@ -20,11 +20,11 @@ const AccountSum = () => {
         <div className="summry">
             <div className="income">
                 <h4>Income</h4>
-            <p>{income}</p>
+            <p>${income}</p>
             </div>
             <div className="expance">
             <h4>Expance</h4>
-            <p>{expense}</p>
+            <p>${expense}</p>
             </div>
         
         </div>

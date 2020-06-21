@@ -11,14 +11,14 @@ function App() {
   return ( 
   <GlobalProvider>
     <div className="body">
-    <Header></Header>
-    <div className="container">
-    <Balence></Balence>
-    <AccountSum></AccountSum>
-    <TransactionHistory></TransactionHistory>
-    <AddTransaction></AddTransaction>
+      <Header></Header>
+        <div className="container">
+          <Balence></Balence>
+          <AccountSum></AccountSum>
+          <TransactionHistory></TransactionHistory>
+          <AddTransaction></AddTransaction>
+        </div>
     </div>
-     </div>
   </GlobalProvider>
   );
 }

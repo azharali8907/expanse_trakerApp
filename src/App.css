@@ -5,53 +5,81 @@
 .body{
   max-width: 400px;
   height: auto;
-  background-color: whitesmoke;
+  background-color: #9998cc;
   margin: auto;
 
 
 }
+h1{
+  letter-spacing: 1px;
+  margin: 0px;
+}
+h3{
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 10px;
+  margin: 40px, 0px, 10px;
+ }
 .header{
   text-align: center;
 }
 .container{
+  margin: auto;
+  max-width: 300px;
+  height: auto;
+  background-color: #9998cc;
   text-align: center;
 }
 .summry{
-  width: 260px;
-    height: 60px;
+  /*background-color: #fff;
+  box-shadow: var(--box-shadow);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  
+ 
     background-color: #fff;
-    /* text-align: center; */
+  width: 100%;
+    height: 60px;
     margin: auto;
-    border: 1px solid fff;
-    border: 1px solid
+    border: 1px solid #fff;
+    border: 1px solid;*/
+    font-size: 20px;
+  letter-spacing: 1px;
+  margin: 5px 0;
 }
 .income{
-  width: 130px;
+  width: 50%;
   height: 60px;
-  background-color:chartreuse;
+  background-color:#2ecc71;
   float: left;
 }
 .expance{
-  width: 130px;
+  width: 50%;
   height: 60px;
-  background-color:red;
+  background-color:#c0392b;
   float: left;
 }
 .history{
-  margin-top: 30px;
+  margin-top: 0px;
+  text-align: left;
+  
 }
 .history ul{
   list-style: none;
 }
 .list{
-  width: 265px;
+   /* width: 100%;
     height: auto;
-    margin: auto;
+    margin: auto;*/
+    list-style-type: none;
+  padding: 0;
+  margin-bottom: 0px;
 }
 .postive{
-  border-bottom: 1px solid;
+    border-bottom: 0px solid;
     border-right: 3px solid #008000;
-    max-width: 265px;
+    max-width: 100%;
     height: 26px;
     background-color: #fff;
     margin-bottom: 2px;
@@ -60,65 +88,131 @@
     padding: 2px 5px;
 }
 .nagtive{
-  border-bottom: 1px solid;
+  border-bottom: 0px solid;
   border-right: 3px solid #FF0000;
-  max-width: 265px;
+  max-width: 100%;
   height: 26px;
   background-color: #fff;
   margin-bottom: 2px;
   text-align: left;
-    font-size: 14px;
-    padding: 2px 5px;
+  font-size: 14px;
+  padding: 2px 5px;
+}
+.trans{
+  text-align: left;
+  margin-top: 10px;
+}
+.trans p{
+  font-size: 14px;
+  margin-left: 20px;
 }
 .postive span{
   float: right;
     /* text-align: right; */
-    font-size: 14px;
-    margin-right: 5px;
+  font-size: 14px;
+  margin-right: 5px;
 }
 .nagtive span{
-  float: right;
+    float: right;
     /* text-align: right; */
     font-size: 14px;
     margin-right: 5px;
 }
 .delbtn{
-  float: left;
+  /*float: left;
     margin-left: -29px;
     width: 19px;
     height: 20px;
     margin-top: 3px;
     background-color: red;
     color: white;
-    border: 1px solid;
+    border: 1px solid;*/
+
+
+      cursor: pointer;
+      background-color: #e74c3c;
+      border: 0;
+      color: #fff;
+      font-size: 20px;
+      line-height: 20px;
+      padding: 2px 5px;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translate(-100%, -50%);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+
 }
 .form-div input{
-  width: 265px;
-    margin-left: -4px;
-    height: 20px;
+  /*width: 99%;
+  height: 20px*/
+   border: 1px solid #dedede;
+    border-radius: 2px;
+    display: block;
+    font-size: 14px;
+    padding: 10px;
+    width: 93%;
 }
 .form-div label{
-  font-size: 18px;
-  /* text-align: left; */
-  margin-left: -188px;
+  display: inline-block;
+  margin: 10px 0;
 }
 .form-div2 input{
-  width: 265px;
-    margin-left: -4px;
-    height: 20px;
+    border: 1px solid #dedede;
+    border-radius: 2px;
+    display: block;
+    font-size: 14px;
+    padding: 10px;
+    width: 93%;
 }
 .form-div2 label{
-  font-size: 18px;
-  /* text-align: left; */
-  margin-left: -116px;
-}
+  display: inline-block;
+  margin: 10px 0;
+ }
 .btn{
-  margin-top: 20px;
+ /* margin-top: 20px;
     margin-bottom: 10px;
-    width: 265px;
+    width: 100%;
     height: 25px;
     background-color: #98c3e2;
     color: white;
     border: 1px solid;
+    cursor: pointer;*/
     cursor: pointer;
+    cursor: pointer;
+    background-color: #1e12d6;
+    box-shadow: var(--box-shadow);
+    color: #fff;
+    border: 0;
+    display: block;
+    font-size: 16px;
+    margin: 10px 0px 30px;
+    padding: 10px;
+    width: 100%;
+}
+.btn:focus,
+.delbtn:focus {
+  outline: 0;
+}
+.list li:hover .delbtn {
+  opacity: 1;
+}
+.list li {
+  background-color: #fff;
+  box-shadow: var(--box-shadow);
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.list li.postive {
+  border-right: 5px solid #2ecc71;
+}
+
+.list li.nagtive {
+  border-right: 5px solid #c0392b;
 }
